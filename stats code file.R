@@ -1,6 +1,6 @@
 library(foreign)
 library(dplyr)
-d <- read.dta("C:\\Users\\Hayathi\\Desktop\\statsdf.dta")
+d <- read.dta("C:\\Users\\Dilip\\Desktop\\statsdf.dta")
 df <- d %>% filter(State != 5)
 134517 - 1268   #133249
 
@@ -273,3 +273,4 @@ ggplot(aes(sh_esna),data = q6) +
   geom_histogram()
 ggplot(aes(sh_nsna),data = q6) +
   geom_histogram()
+
